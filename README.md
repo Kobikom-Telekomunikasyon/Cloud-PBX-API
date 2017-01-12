@@ -59,10 +59,10 @@ queue         => GET => Tek kuyruga sorgu yapabilir
 
 #### Kuyruğa agent eklemek veya silmek
 
-> URL = http://{yourpbxip}/api/module/{responseType}/queueUsers/
+> URL = http://{yourpbxip}/api/module/{responseType}/agentsQueue/
 
 ```php
-//GET request - queueUsers
+//GET request - agentsQueue
 
 responseType  => GET : xml/json
 api_key       => GET
