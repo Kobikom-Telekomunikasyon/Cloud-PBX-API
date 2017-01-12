@@ -30,26 +30,25 @@ dynmembers    => POST => array
 
 #### Kuyruk sil
 
-> URL = http://{yourpbxip}/api/module/deleteQueue/{queue}/
+> URL = http://{yourpbxip}/api/module/deleteQueue/
 
 ```php
 //DELETE request - module=deleteQueue
 
 api_key       => GET
 module        => GET
-account       => GET => numeric
+account       => POST => numeric
 ```
 #### Kuyruğa tanımlı dinamik agent listesi
 
-> URL = http://{yourpbxip}/api/module/queueAgents/{queue}/
+> URL = http://{yourpbxip}/api/module/queueAgents/
 
 ```php
 //GET request - queueAgents
 
 api_key       => GET
 module        => GET
-account       => GET
-queue         => GET => Tek kuyruga sorgu yapabilir
+account       => POST => Tek kuyruga sorgu yapabilir
 ```
 
 #### Kuyruğa agent eklemek veya silmek
