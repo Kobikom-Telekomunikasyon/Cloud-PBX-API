@@ -1,5 +1,4 @@
 # Cloud-PBX-API
- Kobikom bulut santral API
  
 XML API Request
 
