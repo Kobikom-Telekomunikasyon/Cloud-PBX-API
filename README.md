@@ -32,7 +32,7 @@ dynmembers    => POST => array
 
 #### Kuyruk sil
 
-> URL = http://{yourpbxip}/api/module/{responseType}/{request}/deleteQueue/
+> URL = http://{yourpbxip}/api/module/{responseType}/deleteQueue/
 
 ```php
 //DELETE request - deleteQueue
