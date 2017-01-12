@@ -3,6 +3,7 @@
 ### Kuyruk ve agent'lar için GET/PUT/DELETE method ve data type
 Kampanyalar için kuyruk oluşturma ve kuyruk içerisine dinamik agent atamak, kuyruk içerisindeki agent'ları silmek veya kuyruk içerisindeki agent'ların listesini görüntülemek için hazırlanmıştır.
 Genel kullanıma yöneliktir.
+Soru ve önerilerinizi iletiniz ; yazilim@kobikom.com.tr
 
 | Parametre     | Açıklama               | Type   |
 | ------------- |:----------------------:| ------:|
