@@ -4,10 +4,10 @@
 Kampanyalar için kuyruk oluşturma ve kuyruk içerisine dinamik agent atamak, kuyruk içerisindeki agent'ları silmek veya kuyruk içerisindeki agent'ların listesini görüntülemek için hazırlanmıştır.
 Genel kullanıma yöneliktir.
 
-**account:**   Kuyruk numaranız
-**name:**      Kuyruk adınız
-**password:**  Kuyruk şifreniz
-**dynmembers** Dinamik agent'larınız
+**account:**   Kuyruk numaranız.
+**name:**      Kuyruk adınız.
+**password:**  Kuyruk şifreniz.
+**dynmembers** Dinamik agent'larınız.
 
 #### Kuyruk ekle
 
