@@ -1,7 +1,12 @@
 # Cloud-PBX-API
  
-### Queue ve Agents GET/PUT/DELETE method ve data type
-
+### Kuyruk ve agent'lar için GET/PUT/DELETE method ve data type
+Kampanyalar için kuyruk oluşturma ve kuyruk içerisine dinamik agent atamak, kuyruk içerisindeki agent'ları silmek veya kuyruk içerisindeki agent'ların listesini görüntülemek için hazırlanmıştır.
+Genel kullanıma yöneliktir.
+**account:**   Kuyruk numaranız
+**name:**      Kuyruk adınız
+**password:**  Kuyruk şifreniz
+**dynmembers** Dinamik agent'larınız
 
 #### Kuyruk ekle
 
@@ -31,7 +36,7 @@ responseType  => GET : xml/json
 api_key       => GET
 module        => GET
 queueDelete   => GET
-queueAccount  => GET => numeric
+account       => GET => numeric
 ```
 #### Kuyruğa tanımlı dinamik agent listesi
 
@@ -43,7 +48,23 @@ queueAccount  => GET => numeric
 responseType  => GET : xml/json
 api_key       => GET
 module        => GET
-queueAccount  => GET
+account       => GET
 ```
+
+#### Kuyruğa agent eklemek veya silmek
+
+> URL = http://{yourpbxip}/api/module/{response_type}/{queueUsers}/
+
+```php
+//GET request - queueUsers
+
+responseType  => GET : xml/json
+api_key       => GET
+module        => GET
+account       => POST => numeric
+dynmembers    => POST => array
+make          => POST => bolean => true eklemek için / false silmek için
+```
+
 
 Başarılar...
