@@ -14,7 +14,7 @@ Genel kullanıma yöneliktir.
 
 #### Kuyruk ekle
 
-> URL = http://{yourpbxip}/api/module/{responseType}/{addQueue}/
+> URL = http://{yourpbxip}/api/module/{responseType}/addQueue/
 
 ```php
 //PUT request - addQueue
@@ -31,7 +31,7 @@ dynmembers    => POST => array
 
 #### Kuyruk sil
 
-> URL = http://{yourpbxip}/api/module/{responseType}/{request}/{deleteQueue}/
+> URL = http://{yourpbxip}/api/module/{responseType}/{request}/deleteQueue/
 
 ```php
 //DELETE request - deleteQueue
@@ -44,7 +44,7 @@ account       => GET => numeric
 ```
 #### Kuyruğa tanımlı dinamik agent listesi
 
-> URL = http://{yourpbxip}/api/module/{response_type}/{queueAgents}/
+> URL = http://{yourpbxip}/api/module/{responseType}/queueAgents/
 
 ```php
 //GET request - queueAgents
@@ -57,7 +57,7 @@ account       => GET
 
 #### Kuyruğa agent eklemek veya silmek
 
-> URL = http://{yourpbxip}/api/module/{response_type}/{queueUsers}/
+> URL = http://{yourpbxip}/api/module/{responseType}/queueUsers/
 
 ```php
 //GET request - queueUsers
