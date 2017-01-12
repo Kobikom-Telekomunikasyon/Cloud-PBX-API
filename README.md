@@ -45,7 +45,7 @@ account       => GET => numeric
 ```
 #### Kuyruğa tanımlı dinamik agent listesi
 
-> URL = http://{yourpbxip}/api/module/{responseType}/queueAgents/
+> URL = http://{yourpbxip}/api/module/{responseType}/queueAgents/{queue}/
 
 ```php
 //GET request - queueAgents
@@ -54,6 +54,7 @@ responseType  => GET : xml/json
 api_key       => GET
 module        => GET
 account       => GET
+queue         => GET => Tek kuyruga sorgu yapabilir
 ```
 
 #### Kuyruğa agent eklemek veya silmek
