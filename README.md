@@ -18,11 +18,10 @@ Soru ve önerilerinizi iletiniz ; yazilim@kobikom.com.tr
 > URL = http://{yourpbxip}/api/module/addQueue/
 
 ```php
-//PUT request - addQueue
+//PUT request - module=addQueue
 
 api_key       => GET
 module        => GET
-queueAdd      => GET
 account       => POST => numeric
 name          => POST => string
 password      => POST => string
@@ -31,14 +30,13 @@ dynmembers    => POST => array
 
 #### Kuyruk sil
 
-> URL = http://{yourpbxip}/api/module/deleteQueue/
+> URL = http://{yourpbxip}/api/module/deleteQueue/{queue}/
 
 ```php
-//DELETE request - deleteQueue
+//DELETE request - module=deleteQueue
 
 api_key       => GET
 module        => GET
-queueDelete   => GET
 account       => GET => numeric
 ```
 #### Kuyruğa tanımlı dinamik agent listesi
