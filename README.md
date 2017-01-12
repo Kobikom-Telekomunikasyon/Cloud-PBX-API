@@ -30,8 +30,6 @@ queueDelete   => GET
 queueAccount  => GET => numeric
 ```
 
-### Queue agents GET 
-
 > URL = http://{yourip}/api/module/{response_type}/{queueAgents}/
 
 ```php
