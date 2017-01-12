@@ -3,8 +3,8 @@
 ### Queue ve Agents GET/PUT/DELETE method ve data type
 
 > URL = http://{yourpbxip}/api/module/{responseType}/{addQueue}/
-
 > Gönderilecek parametreler
+
 ```php
 //PUT request - addQueue
 
@@ -20,8 +20,8 @@ dynmembers    => POST => array
 
 
 > URL = http://{yourpbxip}/api/module/{responseType}/{request}/{deleteQueue}/
-
 > Gönderilecek parametreler
+
 ```php
 //DELETE request - deleteQueue
 
@@ -33,8 +33,8 @@ queueAccount  => GET => numeric
 ```
 
 > URL = http://{yourpbxip}/api/module/{response_type}/{queueAgents}/
-
 > Gönderilecek parametreler
+
 ```php
 //GET request - queueAgents
 
