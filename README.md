@@ -2,7 +2,7 @@
  
 ### Queue and Agents GET/PUT/DELETE method and data type
 
-> URL = http://{yourip}/api/module/{responseType}/{addQueue}/
+> URL = http://{yourpbxip}/api/module/{responseType}/{addQueue}/
 
 ```php
 //PUT request - addQueue
@@ -18,7 +18,7 @@ dynmembers    => POST => array
 ```
 
 
-> URL = http://{yourip}/api/module/{responseType}/{request}/{deleteQueue}/
+> URL = http://{yourpbxip}/api/module/{responseType}/{request}/{deleteQueue}/
 
 ```php
 //DELETE request - deleteQueue
@@ -30,7 +30,7 @@ queueDelete   => GET
 queueAccount  => GET => numeric
 ```
 
-> URL = http://{yourip}/api/module/{response_type}/{queueAgents}/
+> URL = http://{yourpbxip}/api/module/{response_type}/{queueAgents}/
 
 ```php
 //GET request - queueAgents
