@@ -15,12 +15,11 @@ Soru ve önerilerinizi iletiniz ; yazilim@kobikom.com.tr
 
 #### Kuyruk ekle
 
-> URL = http://{yourpbxip}/api/module/{responseType}/addQueue/
+> URL = http://{yourpbxip}/api/module/addQueue/
 
 ```php
 //PUT request - addQueue
 
-responseType  => GET : xml/json
 api_key       => GET
 module        => GET
 queueAdd      => GET
@@ -32,12 +31,11 @@ dynmembers    => POST => array
 
 #### Kuyruk sil
 
-> URL = http://{yourpbxip}/api/module/{responseType}/deleteQueue/
+> URL = http://{yourpbxip}/api/module/deleteQueue/
 
 ```php
 //DELETE request - deleteQueue
 
-responseType  => GET : xml/json
 api_key       => GET
 module        => GET
 queueDelete   => GET
@@ -45,12 +43,11 @@ account       => GET => numeric
 ```
 #### Kuyruğa tanımlı dinamik agent listesi
 
-> URL = http://{yourpbxip}/api/module/{responseType}/queueAgents/{queue}/
+> URL = http://{yourpbxip}/api/module/queueAgents/{queue}/
 
 ```php
 //GET request - queueAgents
 
-responseType  => GET : xml/json
 api_key       => GET
 module        => GET
 account       => GET
@@ -59,12 +56,11 @@ queue         => GET => Tek kuyruga sorgu yapabilir
 
 #### Kuyruğa agent eklemek veya silmek
 
-> URL = http://{yourpbxip}/api/module/{responseType}/agentsQueue/
+> URL = http://{yourpbxip}/api/module/agentsQueue/
 
 ```php
 //GET request - agentsQueue
 
-responseType  => GET : xml/json
 api_key       => GET
 module        => GET
 account       => POST => numeric
