@@ -2,6 +2,9 @@
  
 ### Queue ve Agents GET/PUT/DELETE method ve data type
 
+
+#### Kuyruk ekle
+
 > URL = http://{yourpbxip}/api/module/{responseType}/{addQueue}/
 
 ```php
@@ -17,6 +20,7 @@ password      => POST => string
 dynmembers    => POST => array
 ```
 
+#### Kuyruk sil
 
 > URL = http://{yourpbxip}/api/module/{responseType}/{request}/{deleteQueue}/
 
@@ -29,6 +33,7 @@ module        => GET
 queueDelete   => GET
 queueAccount  => GET => numeric
 ```
+#### Kuyruğa tanımlı dinamik agent listesi
 
 > URL = http://{yourpbxip}/api/module/{response_type}/{queueAgents}/
 
