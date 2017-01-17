@@ -58,7 +58,7 @@ account       => POST => Tek kuyruga sorgu yapabilir
 module        => GET
 account       => POST => numeric
 dynmembers    => POST => array
-make          => POST => bolean => true > gönderilen agent ları ekler / false > gönderilen agent ları siler
+make          => POST => bolean => true > gönderilen agent lari ekler / false > gönderilen agent lari siler
 ```
 
 
