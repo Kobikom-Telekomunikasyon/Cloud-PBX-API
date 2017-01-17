@@ -18,9 +18,8 @@ Soru ve önerilerinizi iletiniz ; yazilim@kobikom.com.tr
 > URL = http://{yourpbxip}/api/module/addQueue/
 
 ```php
-//PUT request - module=addQueue
+//ADD request - module=addQueue
 
-api_key       => GET
 module        => GET
 account       => POST => numeric
 name          => POST => string
@@ -35,7 +34,6 @@ dynmembers    => POST => array
 ```php
 //DELETE request - module=deleteQueue
 
-api_key       => GET
 module        => GET
 account       => POST => numeric
 ```
@@ -46,7 +44,6 @@ account       => POST => numeric
 ```php
 //GET request - queueAgents
 
-api_key       => GET
 module        => GET
 account       => POST => Tek kuyruga sorgu yapabilir
 ```
@@ -58,7 +55,6 @@ account       => POST => Tek kuyruga sorgu yapabilir
 ```php
 //GET request - agentsQueue
 
-api_key       => GET
 module        => GET
 account       => POST => numeric
 dynmembers    => POST => array
