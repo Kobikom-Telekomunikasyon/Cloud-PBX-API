@@ -15,7 +15,7 @@ Soru ve önerilerinizi iletiniz ; yazilim@kobikom.com.tr
 
 #### Kuyruk ekle
 
-> URL = http://{yourpbxip}/api/module/addQueue/
+> URL = http://{yourpbxip}/api/index.php?module=addQueue/
 
 ```php
 //ADD request - module=addQueue
@@ -29,7 +29,7 @@ dynmembers    => POST => array
 
 #### Kuyruk sil
 
-> URL = http://{yourpbxip}/api/module/deleteQueue/
+> URL = http://{yourpbxip}/api/index.php?module=deleteQueue/
 
 ```php
 //DELETE request - module=deleteQueue
@@ -39,7 +39,7 @@ account       => POST => numeric
 ```
 #### Kuyruğa tanımlı dinamik agent listesi
 
-> URL = http://{yourpbxip}/api/module/queueAgents/
+> URL = http://{yourpbxip}/api/index.php?module=queueAgents/
 
 ```php
 //GET request - queueAgents
@@ -50,7 +50,7 @@ account       => POST => Tek kuyruga sorgu yapabilir
 
 #### Kuyruğa agent eklemek veya silmek
 
-> URL = http://{yourpbxip}/api/module/agentsQueue/
+> URL = http://{yourpbxip}/api/index.php?module=agentsQueue/
 
 ```php
 //GET request - agentsQueue
